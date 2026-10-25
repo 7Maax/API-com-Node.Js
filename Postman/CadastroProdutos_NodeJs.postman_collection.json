@@ -1,0 +1,263 @@
+{
+  "info": {
+    "_postman_id": "a72c9f14-1595-4154-9c12-8b0d3e4f5a6b",
+    "name": "API Cadastro de Produtos - Node.Js (Aluno 1595154)",
+    "description": "Coleção completa de testes do CRUD no Postman para a API Mínima em Node.Js de Cadastro de Produtos (mínimo de 2 registros por tipo de rota, incluindo o código de pessoa real 1595154).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "01 - POST - Criar Produto 1 (Código do Aluno: 1595154)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"1595154\",\n  \"codigo\": \"1595154\",\n  \"nome\": \"Notebook Gamer Acer Nitro V15\",\n  \"preco\": 4899.90,\n  \"descricao\": \"Notebook Gamer Intel Core i7, 16GB RAM DDR5, SSD 512GB NVMe e GPU RTX 4050\",\n  \"quantidadeEstoque\": 15,\n  \"avaliacao\": 4.9,\n  \"categoria\": \"Informatica\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/produtos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "02 - POST - Criar Produto 2 (Monitor Gamer LG - Código 204810)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"204810\",\n  \"codigo\": \"204810\",\n  \"nome\": \"Monitor Gamer LG UltraGear 27 Polegadas\",\n  \"preco\": 1349.99,\n  \"descricao\": \"Monitor IPS Full HD 180Hz 1ms com suporte a FreeSync e G-Sync\",\n  \"quantidadeEstoque\": 28,\n  \"avaliacao\": 4.8,\n  \"categoria\": \"Monitores\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/produtos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "03 - POST - Criar Produto 3 (Teclado Mecânico Logitech - Código 309120)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"309120\",\n  \"codigo\": \"309120\",\n  \"nome\": \"Teclado Mecanico Sem Fio Logitech G915\",\n  \"preco\": 1199.00,\n  \"descricao\": \"Teclado mecanico RGB Lightspeed de perfil baixo com switches tateis\",\n  \"quantidadeEstoque\": 20,\n  \"avaliacao\": 4.7,\n  \"categoria\": \"Perifericos\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/produtos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "04 - GET Todos (Teste 1) - Ler Todos os Produtos do Banco",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "05 - GET por Código (Teste 1) - Buscar Produto pelo Código do Aluno (1595154)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos/1595154",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "1595154"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "06 - GET por Código (Teste 2) - Buscar Produto 2 pelo Código (204810)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos/204810",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "204810"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "07 - GET por Categoria (Teste 1) - Buscar Categoria Informatica",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos?categoria=Informatica",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"],
+          "query": [
+            {
+              "key": "categoria",
+              "value": "Informatica"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "08 - GET por Categoria (Teste 2) - Buscar Categoria Monitores",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos?categoria=Monitores",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"],
+          "query": [
+            {
+              "key": "categoria",
+              "value": "Monitores"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "09 - PUT (Teste 1) - Atualizar Produto 1 (Código do Aluno: 1595154)",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"1595154\",\n  \"codigo\": \"1595154\",\n  \"nome\": \"Notebook Gamer Acer Nitro V15 (Edicao Especial)\",\n  \"preco\": 4599.90,\n  \"descricao\": \"Notebook Gamer Intel Core i7, 32GB RAM DDR5, SSD 1TB NVMe e GPU RTX 4050\",\n  \"quantidadeEstoque\": 12,\n  \"avaliacao\": 5.0,\n  \"categoria\": \"Informatica\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/produtos/1595154",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "1595154"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "10 - PATCH (Teste 2) - Atualizar Produto 2 (Código 204810)",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"preco\": 1249.90,\n  \"quantidadeEstoque\": 35,\n  \"avaliacao\": 4.9\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/produtos/204810",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "204810"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "11 - GET Todos (Teste 2) - Ler Todos os Produtos Após Atualizações",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "12 - DELETE (Teste 1) - Excluir Produto 2 (Código 204810)",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos/204810",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "204810"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "13 - DELETE (Teste 2) - Excluir Produto 3 (Código 309120)",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/produtos/309120",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["produtos", "309120"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
+

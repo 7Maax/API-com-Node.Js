@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "id": "1595154",
+      "codigo": "1595154",
+      "nome": "Notebook Gamer Acer Nitro V15",
+      "preco": 4899.9,
+      "descricao": "Notebook Gamer Intel Core i7, 16GB RAM DDR5, SSD 512GB NVMe e GPU RTX 4050",
+      "quantidadeEstoque": 15,
+      "avaliacao": 4.9,
+      "categoria": "Informatica"
+    },
+    {
+      "id": "204810",
+      "codigo": "204810",
+      "nome": "Monitor Gamer LG UltraGear 27 Polegadas",
+      "preco": 1249.9,
+      "descricao": "Monitor IPS Full HD 180Hz 1ms com suporte a FreeSync e G-Sync",
+      "quantidadeEstoque": 35,
+      "avaliacao": 4.9,
+      "categoria": "Monitores"
+    },
+    {
+      "id": "309120",
+      "codigo": "309120",
+      "nome": "Teclado Mecanico Sem Fio Logitech G915",
+      "preco": 1199,
+      "descricao": "Teclado mecanico RGB Lightspeed de perfil baixo com switches tateis",
+      "quantidadeEstoque": 20,
+      "avaliacao": 4.7,
+      "categoria": "Perifericos"
+    }
+  ]
+}
