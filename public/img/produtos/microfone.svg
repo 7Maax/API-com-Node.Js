@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient>
+    <linearGradient id="rgb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ef4444"/><stop offset=".5" stop-color="#a855f7"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+    <pattern id="malha" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 0l7 7M7 0 0 7" stroke="#fff" stroke-opacity=".28"/></pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="262" rx="78" ry="7" fill="#1b2420" opacity=".12"/>
+  <ellipse cx="200" cy="252" rx="62" ry="10" fill="#111827"/>
+  <rect x="138" y="242" width="124" height="10" fill="#111827"/>
+  <ellipse cx="200" cy="242" rx="62" ry="10" fill="#2b3441"/>
+  <rect x="193" y="196" width="14" height="48" fill="#374151"/>
+  <path d="M150 112v78q0 10 10 10h80q10 0 10-10v-78" fill="none" stroke="#1f2937" stroke-width="8"/>
+  <rect x="160" y="38" width="80" height="150" rx="40" fill="url(#rgb)"/>
+  <rect x="160" y="38" width="80" height="150" rx="40" fill="url(#malha)"/>
+  <ellipse cx="200" cy="46" rx="28" ry="5" fill="#fff" opacity=".35"/>
+  <rect x="156" y="104" width="88" height="16" rx="4" fill="#111827"/>
+  <circle cx="150" cy="112" r="7" fill="#374151"/>
+  <circle cx="250" cy="112" r="7" fill="#374151"/>
+  <rect x="190" y="182" width="20" height="10" rx="3" fill="#111827"/>
+</svg>

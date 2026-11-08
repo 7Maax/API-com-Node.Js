@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient></defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="264" rx="112" ry="8" fill="#1b2420" opacity=".12"/>
+  <path d="M112 165c0-103 176-103 176 0" fill="none" stroke="#1f2937" stroke-width="20" stroke-linecap="round"/>
+  <path d="M136 104c30-34 98-34 128 0" fill="none" stroke="#e5484d" stroke-width="5" stroke-linecap="round"/>
+  <rect x="104" y="138" width="16" height="32" rx="4" fill="#9ca3af"/>
+  <rect x="280" y="138" width="16" height="32" rx="4" fill="#9ca3af"/>
+  <rect x="132" y="168" width="20" height="72" rx="10" fill="#374151"/>
+  <rect x="248" y="168" width="20" height="72" rx="10" fill="#374151"/>
+  <rect x="82" y="160" width="62" height="88" rx="28" fill="#111827"/>
+  <rect x="256" y="160" width="62" height="88" rx="28" fill="#111827"/>
+  <rect x="93" y="173" width="40" height="62" rx="19" fill="none" stroke="#e5484d" stroke-width="3"/>
+  <rect x="267" y="173" width="40" height="62" rx="19" fill="none" stroke="#e5484d" stroke-width="3"/>
+  <path d="M100 240c2 28 40 36 68 26" fill="none" stroke="#374151" stroke-width="7" stroke-linecap="round"/>
+  <rect x="164" y="257" width="24" height="16" rx="8" fill="#111827"/>
+</svg>

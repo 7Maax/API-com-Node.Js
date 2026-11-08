@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient>
+    <linearGradient id="tela" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f46e5"/><stop offset=".55" stop-color="#a855f7"/><stop offset="1" stop-color="#f0abfc"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="208" cy="264" rx="112" ry="8" fill="#1b2420" opacity=".12"/>
+  <g transform="rotate(12 248 150)">
+    <rect x="196" y="40" width="104" height="212" rx="18" fill="#d6cff8" stroke="#ad9fea" stroke-width="3"/>
+    <g fill="#2a2350" stroke="#ad9fea" stroke-width="3"><circle cx="223" cy="70" r="10"/><circle cx="223" cy="97" r="10"/><circle cx="223" cy="124" r="10"/></g>
+    <circle cx="246" cy="70" r="3" fill="#fff8dc"/>
+  </g>
+  <rect x="98" y="34" width="106" height="222" rx="18" fill="#141a2a"/>
+  <rect x="204" y="92" width="3" height="30" rx="1.5" fill="#141a2a"/>
+  <rect x="105" y="42" width="92" height="206" rx="12" fill="url(#tela)"/>
+  <circle cx="151" cy="54" r="4" fill="#141a2a"/>
+  <text x="151" y="102" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#fff">12:30</text>
+  <text x="151" y="119" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#fff" opacity=".85">8 de novembro</text>
+  <g fill="#fff" opacity=".85"><rect x="114" y="216" width="16" height="16" rx="5"/><rect x="136" y="216" width="16" height="16" rx="5"/><rect x="158" y="216" width="16" height="16" rx="5"/><rect x="180" y="216" width="16" height="16" rx="5" opacity=".7"/></g>
+</svg>

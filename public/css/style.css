@@ -1,0 +1,601 @@
+/* Vitrine Tech: estilos próprios por cima do Bootstrap 5.
+   Tema "placa de circuito": verde de placa, pads dourados e o resto quieto. */
+
+:root {
+  --placa: #0e5a43;
+  --placa-escura: #0a4434;
+  --placa-clara: #b9dccd;
+  --ouro: #e3b23c;
+  --ouro-claro: #f0c457;
+  --ouro-escuro: #b8861c;
+  --grafite: #1b2420;
+  --texto-suave: #56625d;
+  --nevoa: #f2f4f3;
+  --linha: #d5dcd9;
+  --perigo: #b42318;
+
+  --bs-body-font-family: 'Archivo', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --bs-body-color: var(--grafite);
+  --bs-body-bg: var(--nevoa);
+  --bs-border-color: var(--linha);
+  --bs-link-color-rgb: 14, 90, 67;
+  --bs-link-hover-color-rgb: 10, 68, 52;
+  --bs-focus-ring-color: rgba(227, 178, 60, 0.6);
+}
+
+body {
+  background: var(--nevoa);
+  line-height: 1.55;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+/* ---------- Botões ---------- */
+
+.btn {
+  font-weight: 600;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--placa);
+  --bs-btn-border-color: var(--placa);
+  --bs-btn-hover-bg: var(--placa-escura);
+  --bs-btn-hover-border-color: var(--placa-escura);
+  --bs-btn-active-bg: var(--placa-escura);
+  --bs-btn-active-border-color: var(--placa-escura);
+  --bs-btn-disabled-bg: var(--placa);
+  --bs-btn-disabled-border-color: var(--placa);
+  --bs-btn-focus-shadow-rgb: 227, 178, 60;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--placa);
+  --bs-btn-border-color: var(--placa);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--placa);
+  --bs-btn-hover-border-color: var(--placa);
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--placa-escura);
+  --bs-btn-active-border-color: var(--placa-escura);
+  --bs-btn-focus-shadow-rgb: 227, 178, 60;
+}
+
+.btn-danger {
+  --bs-btn-bg: var(--perigo);
+  --bs-btn-border-color: var(--perigo);
+  --bs-btn-hover-bg: #912018;
+  --bs-btn-hover-border-color: #912018;
+  --bs-btn-active-bg: #7a1a14;
+  --bs-btn-active-border-color: #7a1a14;
+}
+
+.btn-outline-danger {
+  --bs-btn-color: var(--perigo);
+  --bs-btn-border-color: var(--perigo);
+  --bs-btn-hover-bg: var(--perigo);
+  --bs-btn-hover-border-color: var(--perigo);
+  --bs-btn-active-bg: #912018;
+  --bs-btn-active-border-color: #912018;
+}
+
+/* ---------- Topo ---------- */
+
+.pular-conteudo {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 1100;
+  padding: 0.5rem 1rem;
+  background: var(--grafite);
+  color: #fff;
+  border-radius: 6px;
+}
+
+.pular-conteudo:focus {
+  top: 1rem;
+}
+
+.topo {
+  background: #fff;
+  border-bottom: 1px solid var(--linha);
+}
+
+.marca {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--grafite);
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-stretch: 120%;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+}
+
+.marca:hover {
+  color: var(--grafite);
+}
+
+.topo .nav-link {
+  color: var(--grafite);
+  font-weight: 500;
+}
+
+.topo .nav-link:hover,
+.topo .nav-link:focus-visible {
+  color: var(--placa);
+}
+
+.topo .nav-link.active {
+  color: var(--placa);
+  text-decoration: underline 2px;
+  text-underline-offset: 0.45em;
+}
+
+/* ---------- Seções ---------- */
+
+main {
+  padding-bottom: 3rem;
+}
+
+.secao {
+  padding-top: 2.5rem;
+}
+
+.cabecalho-secao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid var(--grafite);
+}
+
+.titulo-secao {
+  margin: 0;
+  font-size: 1.5625rem;
+  font-weight: 800;
+  font-stretch: 115%;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+.subtitulo-secao {
+  margin: 0.15rem 0 0;
+  color: var(--texto-suave);
+  font-size: 0.9375rem;
+}
+
+.rotulo {
+  margin-bottom: 0.35rem;
+  color: var(--placa);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.estado {
+  padding: 2.5rem 0;
+  text-align: center;
+}
+
+.estado h1 {
+  font-weight: 800;
+  font-stretch: 112%;
+}
+
+.estado p {
+  color: var(--texto-suave);
+}
+
+/* ---------- Destaque: a placa de circuito ---------- */
+
+.destaque-painel {
+  position: relative;
+  min-height: 320px;
+  padding: 2rem 4.5rem 3.25rem;
+  border-radius: 14px;
+  color: #fff;
+  background-color: var(--placa);
+  background-image: url('../img/trilhas.svg');
+  background-size: 200px 200px;
+}
+
+.destaque-carregando {
+  display: grid;
+  place-items: center;
+  min-height: 260px;
+}
+
+.destaque-slide {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.destaque-slide__imagem {
+  padding: 0.5rem;
+  background: #fff;
+  border: 3px solid var(--ouro);
+  border-radius: 12px;
+}
+
+.destaque-slide__imagem img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.destaque-slide__categoria {
+  margin-bottom: 0.35rem;
+  color: var(--placa-clara);
+  font-size: 0.9375rem;
+}
+
+.destaque-slide__nome {
+  margin-bottom: 0.75rem;
+  font-size: clamp(1.5rem, 2.6vw, 2.25rem);
+  font-weight: 800;
+  font-stretch: 112%;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.destaque-slide .avaliacao {
+  color: var(--ouro);
+}
+
+.destaque-slide .avaliacao__nota {
+  color: #fff;
+}
+
+.destaque-slide .preco-pad {
+  margin: 1rem 0 1.25rem;
+}
+
+.destaque-slide .btn-light {
+  --bs-btn-color: var(--placa);
+  --bs-btn-hover-color: var(--placa-escura);
+  --bs-btn-focus-shadow-rgb: 227, 178, 60;
+}
+
+.destaque-painel .carousel-control-prev,
+.destaque-painel .carousel-control-next {
+  width: 4.5rem;
+}
+
+.destaque-painel .carousel-indicators {
+  margin-bottom: 0.9rem;
+}
+
+/* indicadores como pads quadrados */
+.destaque-painel .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  margin: 0 7px;
+  border-radius: 2px;
+  background-color: var(--ouro);
+  opacity: 0.4;
+}
+
+.destaque-painel .carousel-indicators .active {
+  opacity: 1;
+}
+
+/* preço como pad dourado: aparece no destaque e nos detalhes */
+.preco-pad {
+  display: inline-block;
+  margin: 0;
+  padding: 0.2rem 0.75rem;
+  border-radius: 6px;
+  background: var(--ouro);
+  color: var(--grafite);
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.4;
+}
+
+/* ---------- Avaliação ---------- */
+
+.avaliacao {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  color: var(--ouro-escuro);
+  font-size: 0.95rem;
+}
+
+.avaliacao__nota {
+  margin-left: 0.4rem;
+  color: var(--grafite);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------- Cards de produto ---------- */
+
+.produto-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--linha);
+  border-radius: 10px;
+  transition: border-color 0.15s ease;
+}
+
+.produto-card:hover,
+.produto-card:focus-within {
+  border-color: var(--placa);
+}
+
+.produto-card__imagem {
+  background: #f6f8f7;
+  border-bottom: 1px solid var(--linha);
+}
+
+.produto-card__imagem img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
+.produto-card__corpo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.produto-card__categoria {
+  margin-bottom: 0.2rem;
+  color: var(--texto-suave);
+  font-size: 0.8125rem;
+}
+
+.produto-card__nome {
+  display: -webkit-box;
+  min-height: 2.6em;
+  margin-bottom: 0.4rem;
+  overflow: hidden;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.produto-card__preco {
+  margin-bottom: 0.9rem;
+  font-size: 1.25rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.produto-card .btn {
+  margin-top: auto;
+}
+
+/* ---------- Página de detalhes ---------- */
+
+.voltar {
+  padding-top: 1.5rem;
+}
+
+.voltar a {
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.voltar a:hover {
+  text-decoration: underline;
+}
+
+.detalhe {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 1rem;
+  padding-top: 1.75rem;
+  border-top: 2px solid var(--grafite);
+}
+
+.detalhe__imagem {
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid var(--linha);
+  border-radius: 12px;
+}
+
+.detalhe__imagem img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+}
+
+.detalhe__categoria {
+  margin-bottom: 0.35rem;
+  color: var(--texto-suave);
+}
+
+.detalhe__nome {
+  margin-bottom: 0.6rem;
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+  font-weight: 800;
+  font-stretch: 112%;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.detalhe__descricao {
+  max-width: 65ch;
+  white-space: pre-line;
+}
+
+.ficha {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.5rem 1.5rem;
+  margin: 1.5rem 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--linha);
+}
+
+.ficha dt {
+  color: var(--texto-suave);
+  font-weight: 500;
+}
+
+.ficha dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+/* ---------- Créditos ---------- */
+
+.creditos {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 2rem 3rem;
+}
+
+.creditos p:not(.rotulo) {
+  max-width: 65ch;
+}
+
+.autoria {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.autoria__avatar {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--placa);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.autoria dl {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 0.2rem 0.75rem;
+  margin: 0;
+}
+
+.autoria dt {
+  font-weight: 600;
+}
+
+.autoria dd {
+  margin: 0;
+}
+
+/* ---------- Modais e formulários ---------- */
+
+.modal {
+  --bs-modal-bg: #fff;
+}
+
+.modal-title {
+  font-weight: 800;
+  font-stretch: 112%;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control[readonly] {
+  background-color: var(--nevoa);
+}
+
+.previa {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--texto-suave);
+  font-size: 0.875rem;
+}
+
+.previa img {
+  width: 120px;
+  height: 90px;
+  object-fit: contain;
+  background: #f6f8f7;
+  border: 1px solid var(--linha);
+  border-radius: 8px;
+}
+
+.notificacao {
+  background: var(--grafite);
+  color: #fff;
+}
+
+/* ---------- Telas menores ---------- */
+
+@media (max-width: 991.98px) {
+  .destaque-painel {
+    padding: 1.5rem 3.5rem 3rem;
+  }
+
+  .destaque-slide {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .destaque-slide,
+  .detalhe,
+  .creditos {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .destaque-painel {
+    padding: 1rem 1rem 2.75rem;
+  }
+
+  /* no celular troca de slide pelos indicadores ou deslizando o dedo */
+  .destaque-painel .carousel-control-prev,
+  .destaque-painel .carousel-control-next {
+    display: none;
+  }
+
+  .destaque-slide {
+    gap: 1rem;
+  }
+
+  .destaque-slide .preco-pad {
+    margin: 0.75rem 0 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient>
+    <pattern id="teclas" x="44" y="110" width="22" height="22" patternUnits="userSpaceOnUse"><rect x="1.5" y="1.5" width="19" height="19" rx="4" fill="#111827"/><rect x="4" y="3" width="14" height="12" rx="3" fill="#374151"/></pattern>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ef4444"/><stop offset=".2" stop-color="#f59e0b"/><stop offset=".4" stop-color="#22c55e"/><stop offset=".6" stop-color="#06b6d4"/><stop offset=".8" stop-color="#6366f1"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="228" rx="172" ry="8" fill="#1b2420" opacity=".12"/>
+  <rect x="34" y="200" width="332" height="14" rx="7" fill="url(#rgb)" opacity=".3"/>
+  <rect x="30" y="98" width="340" height="118" rx="12" fill="#1f2937"/>
+  <rect x="30" y="98" width="340" height="110" rx="12" fill="#2b3441"/>
+  <rect x="44" y="110" width="308" height="66" fill="url(#teclas)"/>
+  <g fill="#111827">
+    <rect x="45.5" y="177.5" width="41" height="19" rx="4"/>
+    <rect x="89.5" y="177.5" width="19" height="19" rx="4"/>
+    <rect x="111.5" y="177.5" width="151" height="19" rx="4"/>
+    <rect x="265.5" y="177.5" width="19" height="19" rx="4"/>
+    <rect x="287.5" y="177.5" width="19" height="19" rx="4"/>
+    <rect x="309.5" y="177.5" width="41" height="19" rx="4"/>
+  </g>
+  <g fill="#374151">
+    <rect x="48" y="179" width="36" height="12" rx="3"/>
+    <rect x="92" y="179" width="14" height="12" rx="3"/>
+    <rect x="114" y="179" width="146" height="12" rx="3"/>
+    <rect x="268" y="179" width="14" height="12" rx="3"/>
+    <rect x="290" y="179" width="14" height="12" rx="3"/>
+    <rect x="312" y="179" width="36" height="12" rx="3"/>
+  </g>
+  <rect x="36" y="208" width="328" height="4" rx="2" fill="url(#rgb)"/>
+</svg>

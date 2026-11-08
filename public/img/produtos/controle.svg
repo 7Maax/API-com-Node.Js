@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient></defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="256" rx="128" ry="8" fill="#1b2420" opacity=".12"/>
+  <path d="M120 102c15-14 45-16 60-8M280 102c-15-14-45-16-60-8" fill="none" stroke="#111827" stroke-width="12" stroke-linecap="round"/>
+  <path d="M128 98c22-10 44-4 72-4s50-6 72 4c28 12 44 52 54 98 8 36-10 56-30 50-14-4-22-18-32-34-8-12-16-16-28-16h-72c-12 0-20 4-28 16-10 16-18 30-32 34-20 6-38-14-30-50 10-46 26-86 54-98Z" fill="#1f2937"/>
+  <path d="M132 106c20-8 42-4 68-4s48-4 68 4" fill="none" stroke="#fff" stroke-width="3" opacity=".08"/>
+  <circle cx="142" cy="134" r="18" fill="#111827"/><circle cx="142" cy="134" r="12" fill="#2b3441"/>
+  <circle cx="232" cy="178" r="17" fill="#111827"/><circle cx="232" cy="178" r="11" fill="#2b3441"/>
+  <path d="M164 160h12v10h10v12h-10v10h-12v-10h-10v-12h10Z" fill="#111827"/>
+  <circle cx="262" cy="116" r="8" fill="#facc15"/>
+  <circle cx="280" cy="134" r="8" fill="#ef4444"/>
+  <circle cx="262" cy="152" r="8" fill="#22c55e"/>
+  <circle cx="244" cy="134" r="8" fill="#3b82f6"/>
+  <circle cx="200" cy="112" r="11" fill="#e5e7eb"/><circle cx="200" cy="112" r="6" fill="none" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="179" y="132" width="11" height="7" rx="3.5" fill="#111827"/>
+  <rect x="210" y="132" width="11" height="7" rx="3.5" fill="#111827"/>
+  <rect x="196" y="148" width="8" height="5" rx="2.5" fill="#111827"/>
+</svg>

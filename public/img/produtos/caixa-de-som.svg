@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient>
+    <linearGradient id="corpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a8a82"/><stop offset="1" stop-color="#0f5e58"/></linearGradient>
+    <pattern id="tecido" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.1" fill="#0b4f4a"/></pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="214" rx="142" ry="8" fill="#1b2420" opacity=".12"/>
+  <rect x="70" y="104" width="260" height="96" rx="48" fill="url(#corpo)"/>
+  <rect x="70" y="104" width="260" height="96" rx="48" fill="url(#tecido)"/>
+  <ellipse cx="88" cy="152" rx="14" ry="44" fill="#0b4f4a"/>
+  <ellipse cx="88" cy="152" rx="8" ry="28" fill="#083b37"/>
+  <ellipse cx="312" cy="152" rx="14" ry="44" fill="#0b4f4a"/>
+  <ellipse cx="312" cy="152" rx="8" ry="28" fill="#083b37"/>
+  <rect x="140" y="99" width="120" height="11" rx="5.5" fill="#0b4f4a"/>
+  <g fill="#9fd8d2"><circle cx="165" cy="104.5" r="2.5"/><circle cx="185" cy="104.5" r="2.5"/><circle cx="215" cy="104.5" r="2.5"/><circle cx="235" cy="104.5" r="2.5"/></g>
+  <rect x="110" y="114" width="180" height="9" rx="4.5" fill="#fff" opacity=".12"/>
+  <rect x="174" y="136" width="52" height="32" rx="8" fill="#f97316"/>
+  <rect x="186" y="148" width="28" height="8" rx="4" fill="#fff" opacity=".9"/>
+</svg>

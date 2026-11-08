@@ -1,14 +1,16 @@
 {
   "produtos": [
     {
-      "id": "1595154",
-      "codigo": "1595154",
-      "nome": "Notebook Gamer Acer Nitro V15",
-      "preco": 4899.9,
-      "descricao": "Notebook Gamer Intel Core i7, 16GB RAM DDR5, SSD 512GB NVMe e GPU RTX 4050",
-      "quantidadeEstoque": 15,
-      "avaliacao": 4.9,
-      "categoria": "Informatica"
+      "id": "309120",
+      "codigo": "309120",
+      "nome": "Teclado Mecanico Sem Fio Logitech G915",
+      "preco": 1199,
+      "descricao": "Teclado mecanico RGB Lightspeed de perfil baixo com switches tateis",
+      "quantidadeEstoque": 20,
+      "avaliacao": 4.7,
+      "categoria": "Perifericos",
+      "imagem": "img/produtos/teclado.svg",
+      "criadoEm": "2026-10-25T19:58:00.000Z"
     },
     {
       "id": "204810",
@@ -18,17 +20,141 @@
       "descricao": "Monitor IPS Full HD 180Hz 1ms com suporte a FreeSync e G-Sync",
       "quantidadeEstoque": 35,
       "avaliacao": 4.9,
-      "categoria": "Monitores"
+      "categoria": "Monitores",
+      "imagem": "img/produtos/monitor.svg",
+      "criadoEm": "2026-10-25T19:59:00.000Z"
     },
     {
-      "id": "309120",
-      "codigo": "309120",
-      "nome": "Teclado Mecanico Sem Fio Logitech G915",
-      "preco": 1199,
-      "descricao": "Teclado mecanico RGB Lightspeed de perfil baixo com switches tateis",
-      "quantidadeEstoque": 20,
+      "id": "1595154",
+      "codigo": "1595154",
+      "nome": "Notebook Gamer Acer Nitro V15",
+      "preco": 4899.9,
+      "descricao": "Notebook Gamer Intel Core i7, 16GB RAM DDR5, SSD 512GB NVMe e GPU RTX 4050",
+      "quantidadeEstoque": 15,
+      "avaliacao": 4.9,
+      "categoria": "Informatica",
+      "imagem": "img/produtos/notebook.svg",
+      "criadoEm": "2026-10-25T20:00:00.000Z"
+    },
+    {
+      "id": "410233",
+      "codigo": "410233",
+      "nome": "Mouse Gamer Sem Fio Logitech G Pro X Superlight 2",
+      "preco": 899.9,
+      "descricao": "Mouse sem fio de 60 g com sensor HERO 2 de até 32.000 DPI e bateria para até 95 horas.",
+      "quantidadeEstoque": 28,
+      "avaliacao": 4.8,
+      "categoria": "Perifericos",
+      "imagem": "img/produtos/mouse.svg",
+      "criadoEm": "2026-11-01T13:10:00.000Z"
+    },
+    {
+      "id": "512870",
+      "codigo": "512870",
+      "nome": "Headset Gamer HyperX Cloud II",
+      "preco": 549.9,
+      "descricao": "Headset com som surround 7.1 virtual, almofadas de espuma viscoelástica e microfone removível com cancelamento de ruído.",
+      "quantidadeEstoque": 40,
+      "avaliacao": 4.8,
+      "categoria": "Audio",
+      "imagem": "img/produtos/headset.svg",
+      "criadoEm": "2026-11-02T14:25:00.000Z"
+    },
+    {
+      "id": "618402",
+      "codigo": "618402",
+      "nome": "SSD NVMe Kingston NV2 1TB",
+      "preco": 429.9,
+      "descricao": "SSD M.2 2280 PCIe 4.0 com leitura de até 3.500 MB/s, ideal para acelerar o sistema e os jogos.",
+      "quantidadeEstoque": 60,
+      "avaliacao": 4.6,
+      "categoria": "Armazenamento",
+      "imagem": "img/produtos/ssd.svg",
+      "criadoEm": "2026-11-03T12:40:00.000Z"
+    },
+    {
+      "id": "720115",
+      "codigo": "720115",
+      "nome": "Cadeira Gamer ThunderX3 TGC12",
+      "preco": 1149,
+      "descricao": "Cadeira com encosto reclinável até 180°, almofadas de pescoço e lombar e apoio de braço com regulagem de altura.",
+      "quantidadeEstoque": 8,
+      "avaliacao": 4.3,
+      "categoria": "Moveis",
+      "imagem": "img/produtos/cadeira.svg",
+      "criadoEm": "2026-11-04T16:05:00.000Z"
+    },
+    {
+      "id": "834519",
+      "codigo": "834519",
+      "nome": "Webcam Logitech C920 Full HD",
+      "preco": 379.9,
+      "descricao": "Webcam 1080p a 30 fps com foco automático, correção de luz e dois microfones estéreo.",
+      "quantidadeEstoque": 25,
+      "avaliacao": 4.5,
+      "categoria": "Perifericos",
+      "imagem": "img/produtos/webcam.svg",
+      "criadoEm": "2026-11-05T11:30:00.000Z"
+    },
+    {
+      "id": "905377",
+      "codigo": "905377",
+      "nome": "Smartphone Samsung Galaxy A55 5G 256GB",
+      "preco": 2199,
+      "descricao": "Tela Super AMOLED de 6,6 polegadas a 120 Hz, câmera tripla de 50 MP e bateria de 5.000 mAh.",
+      "quantidadeEstoque": 18,
+      "avaliacao": 4.6,
+      "categoria": "Smartphones",
+      "imagem": "img/produtos/smartphone.svg",
+      "criadoEm": "2026-11-05T18:50:00.000Z"
+    },
+    {
+      "id": "1012648",
+      "codigo": "1012648",
+      "nome": "Caixa de Som Bluetooth JBL Flip 6",
+      "preco": 699.9,
+      "descricao": "Caixa portátil à prova d’água (IP67) com som potente e até 12 horas de reprodução.",
+      "quantidadeEstoque": 22,
+      "avaliacao": 4.8,
+      "categoria": "Audio",
+      "imagem": "img/produtos/caixa-de-som.svg",
+      "criadoEm": "2026-11-06T13:15:00.000Z"
+    },
+    {
+      "id": "1120934",
+      "codigo": "1120934",
+      "nome": "Controle Sem Fio Xbox Series",
+      "preco": 449.9,
+      "descricao": "Controle com conexão Bluetooth, gatilhos texturizados e direcional híbrido; funciona no console e no PC.",
+      "quantidadeEstoque": 30,
       "avaliacao": 4.7,
-      "categoria": "Perifericos"
+      "categoria": "Games",
+      "imagem": "img/produtos/controle.svg",
+      "criadoEm": "2026-11-07T15:20:00.000Z"
+    },
+    {
+      "id": "1234080",
+      "codigo": "1234080",
+      "nome": "Microfone Condensador HyperX QuadCast S",
+      "preco": 899,
+      "descricao": "Microfone USB com iluminação RGB, quatro padrões polares, sensor de toque para silenciar e filtro antipuff interno.",
+      "quantidadeEstoque": 12,
+      "avaliacao": 4.7,
+      "categoria": "Audio",
+      "imagem": "img/produtos/microfone.svg",
+      "criadoEm": "2026-11-07T19:45:00.000Z"
+    },
+    {
+      "id": "1345671",
+      "codigo": "1345671",
+      "nome": "Roteador Wi-Fi 6 TP-Link Archer AX23",
+      "preco": 399.9,
+      "descricao": "Roteador dual band AX1800 com quatro antenas, OFDMA e controle pelo aplicativo Tether.",
+      "quantidadeEstoque": 35,
+      "avaliacao": 4.4,
+      "categoria": "Redes",
+      "imagem": "img/produtos/roteador.svg",
+      "criadoEm": "2026-11-08T14:00:00.000Z"
     }
   ]
 }

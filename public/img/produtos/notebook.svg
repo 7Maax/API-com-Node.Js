@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs><radialGradient id="fundo" cx="50%" cy="42%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3e9e6"/></radialGradient>
+    <linearGradient id="tela" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset=".55" stop-color="#6d28d9"/><stop offset="1" stop-color="#e5484d"/></linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#fundo)"/>
+  <ellipse cx="200" cy="242" rx="150" ry="9" fill="#1b2420" opacity=".12"/>
+  <rect x="105" y="46" width="190" height="130" rx="9" fill="#1f2937"/>
+  <rect x="114" y="55" width="172" height="110" rx="3" fill="url(#tela)"/>
+  <path d="M114 55h96l-60 110h-36Z" fill="#fff" opacity=".08"/>
+  <rect x="190" y="167" width="20" height="3" rx="1.5" fill="#e5484d"/>
+  <path d="M95 176h210l33 50q2 8-6 8H68q-8 0-6-8Z" fill="#374151"/>
+  <path d="M95 176h210l25 38H70Z" fill="#4b5563"/>
+  <path d="M100 184h200M95 192h210M90 200h220" stroke="#273140" stroke-width="5" stroke-dasharray="10 3"/>
+  <rect x="176" y="204" width="48" height="8" rx="2" fill="#374151"/>
+  <rect x="105" y="172" width="190" height="6" rx="2" fill="#111827"/>
+  <rect x="160" y="229" width="80" height="2" rx="1" fill="#e5484d" opacity=".85"/>
+</svg>
