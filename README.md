@@ -15,7 +15,8 @@ npm start
 ```
 
 Abra **http://localhost:3000**. O mesmo servidor entrega a API (`/produtos`) e as páginas (pasta `public/`).
-As páginas também funcionam abertas direto do disco (`public/index.html`), desde que o `npm start` esteja rodando.
+As páginas também funcionam pelo Live Server do VS Code ou abertas direto do disco (`public/index.html`),
+desde que o `npm start` esteja rodando: nesses casos elas chamam a API em `http://localhost:3000`.
 
 Testes automatizados da API (usam um banco temporário, o `db.json` não é alterado):
 

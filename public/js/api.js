@@ -1,12 +1,14 @@
 // Integração com a API de produtos.
 // Todo fetch do front-end fica neste arquivo; as páginas só chamam as funções abaixo.
 
-// Servido pelo Node (npm start): usa o mesmo endereço da página.
-// Aberto direto do disco (file://): aponta para a API em localhost:3000.
+// A API roda na porta 3000 (npm start).
+// Página servida pelo próprio npm start: usa o mesmo endereço da página.
+// Qualquer outro jeito (Live Server na porta 5500, arquivo aberto direto do disco...):
+// aponta para localhost:3000. O CORS liberado na API permite essas chamadas.
 const API_URL =
-  window.location.protocol === 'file:'
-    ? 'http://localhost:3000/produtos'
-    : `${window.location.origin}/produtos`;
+  window.location.port === '3000'
+    ? `${window.location.origin}/produtos`
+    : 'http://localhost:3000/produtos';
 
 async function requisitar(url, opcoes = {}) {
   let resposta;
